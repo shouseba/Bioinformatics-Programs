@@ -1,3 +1,5 @@
+#Program plots the growth curve of bacteria given the growth rate
+#as a parameter. Shows theoretical exponential growth.
 grow = function(growth.rate){
 	num_gen=10
 	N = rep(0,num_gen)
