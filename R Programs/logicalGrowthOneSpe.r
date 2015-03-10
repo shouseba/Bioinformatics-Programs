@@ -1,3 +1,6 @@
+#Program plots the logical growth curve for a species. Takes
+#the growth rate, number of generations and carrying capacity
+#as command line parameters
 logGrowth = function(growth.rate, numGen, caryCap) {
 	N = rep(0, numGen)
 	Index = rep(0, numGen)
